@@ -10,9 +10,27 @@ $ cd autocomplete
 ```
 
 **Launch**
+
+Frontend:
 ```
-$ go run cmd/web/*.go
+$ cd frontend/autocomplete
+
+$ touch .env
+# You have to fill .env file. See .env.example.
+
+$ npm start
 ```
+
+Backend:
+```
+$ go run backend/cmd/web/*.go
+```
+
+## Links
+This project was built using these tools:
+| Tool | Description |
+|----------|---------|
+| [React](https://reactjs.org/) |  "A JavaScript library for building user interfaces" |
 
 ## License
 [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
